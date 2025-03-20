@@ -22,7 +22,7 @@ function HeaderSection() {
                 />
             </div>
             <h1 className="text-5xl font-black text-black mb-2 tracking-tight">Mochammad Ardiansyah</h1>
-            <p className="text-xl font-semibold mb-6 px-4 py-1 bg-yellow-400 inline-block border-2 border-black">
+            <p className="text-xl font-semibold text-black mb-6 px-4 py-1 bg-yellow-400 inline-block border-2 border-black">
                 Junior Software Developer
             </p>
             <div className="flex space-x-3 mt-4">
@@ -51,7 +51,7 @@ function BioSection() {
         <div className={"grid grid-cols-1 md:grid-cols-2 gap-8 mb-16"}>
             <div className="rounded-lg overflow-hidden border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-2 hover:translate-y-2 transition-all duration-200 bg-white">
                 <div className="p-6 pt-6">
-                    <h2 className="text-2xl font-black text-black mb-4 underline decoration-wavy underline-offset-4"
+                    <h2 className="text-2xl font-black text-black mb-4 underline"
                         style={{textDecorationColor: "#facc15"}}>
                         Tentang Saya
                     </h2>
@@ -76,7 +76,7 @@ function EducationSection() {
         <div
             className="rounded-lg overflow-hidden border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-2 hover:translate-y-2 transition-all duration-200 bg-white">
             <div className="p-6 pt-6">
-                <h2 className="text-2xl font-black text-black mb-4 underline decoration-wavy underline-offset-4"
+                <h2 className="text-2xl font-black text-black mb-4 underline"
                     style={{textDecorationColor: "#4ade80"}}>
                     Pendidikan & Pengalaman
                 </h2>
@@ -102,7 +102,7 @@ function EducationSection() {
 function ContactSection() {
     return (
         <div className={"text-center p-8 border-4 border-black bg-[#c5f0ff] shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]"}>
-            <h2 className="text-3xl font-black text-black mb-4 underline decoration-wavy underline-offset-4"
+            <h2 className="text-3xl font-black text-black mb-4"
                 style={{textDecorationColor: "#3b82f6"}}>
                 Hubungi Saya
             </h2>

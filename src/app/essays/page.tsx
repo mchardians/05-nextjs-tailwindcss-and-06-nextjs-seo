@@ -4,29 +4,28 @@ const articles = [
         title: "Revolusi Pendidikan di Era Digital",
         description: "Eksplorasi dampak teknologi terhadap sistem pendidikan modern.",
         link: "/artikel/revolusi-pendidikan",
-        color: "bg-[#ff9f9f]", // Pink
+        color: "bg-[#ff9f9f]",
     },
     {
         title: "Etika dan Privasi di Media Sosial",
         description: "Pentingnya menjaga privasi dan etika dalam interaksi digital.",
         link: "/artikel/etika-privasi-media",
-        color: "bg-[#9fdfff]", // Blue
+        color: "bg-[#9fdfff]",
     },
     {
         title: "Perubahan Iklim: Tantangan dan Solusi",
         description: "Memahami dampak lingkungan dan langkah mitigasi yang dapat diambil.",
         link: "/artikel/perubahan-iklim-solusi",
-        color: "bg-[#b8ff9f]", // Green
+        color: "bg-[#b8ff9f]",
     },
     {
         title: "Kecerdasan Buatan: Inovasi dan Masa Depan",
         description: "Menelusuri peran AI dalam kehidupan sehari-hari dan potensi masa depannya.",
         link: "/artikel/ai-inovasi-masa-depan",
-        color: "bg-[#ffde59]", // Yellow
+        color: "bg-[#ffde59]",
     },
 ]
 
-// Article component with proper TypeScript typing
 interface ArticleProps {
     title: string
     description: string
@@ -61,7 +60,7 @@ export default function Page() {
         <div className="bg-[#f5f5f5] min-h-screen py-10">
             <div className="container mx-auto px-6">
                 <h1
-                    className="text-5xl font-black text-black mt-12 mb-12 text-center underline decoration-wavy underline-offset-8"
+                    className="text-5xl font-black text-black mt-12 mb-12 text-center"
                     style={{ textDecorationColor: "#000" }}
                 >
                     Esai
