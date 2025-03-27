@@ -1,4 +1,5 @@
-// Article data
+import {Metadata} from "next";
+
 const articles = [
     {
         title: "Revolusi Pendidikan di Era Digital",
@@ -55,7 +56,16 @@ function Article({ title, description, link, color }: ArticleProps) {
     )
 }
 
-export default function Page() {
+export const metadata:Metadata = {
+    title: "Essays",
+    description: "Halaman essay saya",
+    openGraph: {
+        images: "https://example.com/default-image.jpg",
+        url: "https://example.com",
+    }
+}
+
+export default function Page({metadata}: any) {
     return (
         <div className="bg-[#f5f5f5] min-h-screen py-10">
             <div className="container mx-auto px-6">

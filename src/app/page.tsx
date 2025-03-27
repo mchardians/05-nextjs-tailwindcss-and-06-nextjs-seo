@@ -1,7 +1,17 @@
 import profileImage from "../../public/images/profile.jpeg"
 import Image from "next/image"
+import {Metadata} from "next";
 
-export default function Home() {
+export const metadata:Metadata = {
+    title: "Tentang Saya",
+    description: "Halaman tentang saya",
+    openGraph: {
+        images: "https://example.com/default-image.jpg",
+        url: "https://example.com",
+    }
+}
+
+export default function Home({metadata}: any) {
   return (
     <div className={"container mx-auto px-4 py-14 bg-[#f5f5f5]"}>
       <HeaderSection />
